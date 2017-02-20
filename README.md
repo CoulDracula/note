@@ -1,7 +1,7 @@
 # note
 study note
 
-## [更简洁的 JavaScript 风格](clean-code-js# 更简洁的 JavaScript 风格)
+## [更简洁的 JavaScript 风格](clean-code-js.md)
 
 ## 零碎笔记
 - 收到新数据后`componentWillReceiveProps:function(nextProps){...nextProps}`
