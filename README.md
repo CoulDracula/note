@@ -1,8 +1,9 @@
 # note
 study note
 
+## [更简洁的 JavaScript 风格](clean-code-js# 更简洁的 JavaScript 风格)
 
-
+## 零碎笔记
 - 收到新数据后`componentWillReceiveProps:function(nextProps){...nextProps}`
 - 挂载前`componentWillMount:function(){...可以是state}`
 - 挂载后`componentDitMount:function(){...可以是state}`
@@ -86,6 +87,8 @@ setTimeout(function(){},time).bind(this);
   - gpasswd -s ${user} docker
   - restart docker
 
+- Cannot connect to the Docker daemon. Is the docker daemon running on this host?
+ docker权限不足，未开启docker或则需要root权限
 
 
 参考视频：https://www.youtube.com/watch?v=PJ95WY2DqXo
@@ -323,7 +326,3 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:false}));
 （bodyParser要在express路由之前，）
 ```
-
-
-
-
