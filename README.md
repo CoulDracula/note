@@ -6,8 +6,8 @@ study note
 
 
 # Think&note
-## [Language](Language.md)
-## [Tool](Tool.md)
+## [Language](language.md)
+## [Tool](tool.md)
 ## [更简洁的 JavaScript 风格](clean-code-js-note.md)
 ## [React Native ](react-native.md)
 ## [React](react.md)
