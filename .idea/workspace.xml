@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d3eda21-1969-4cba-ad4a-dbaf45a1ae78" name="Default" comment="" />
+    <list default="true" id="2d3eda21-1969-4cba-ad4a-dbaf45a1ae78" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Language.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tool.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reat-native.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    </list>
     <ignored path="note.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,7 +19,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -20,23 +27,115 @@
     <favorites_list name="note" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="34">
-                <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <first_editor relative-caret-position="493">
+                <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
             </state>
           </provider>
-          <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        </entry>
+      </file>
+      <file leaf-file-name="react.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="782">
+                <caret line="75" column="19" lean-forward="false" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reat-native.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reat-native.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="1683">
+                <caret line="99" column="1" lean-forward="false" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
+                <folding>
+                  <marker date="1488761637000" expanded="true" signature="1982:2051" ph="{&quot;router&quot;: React.PropTypes.object.isRequired...}" />
+                  <marker date="1488761637000" expanded="true" signature="2080:2151" ph="{...}" />
+                  <marker date="1488761637000" expanded="true" signature="2097:2144" ph="{&quot;key&quot;: '/'...}" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tool.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tool.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="835">
+              <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Language.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Language.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="850">
+                <caret line="190" column="0" lean-forward="false" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clean-code-js-note.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clean-code-js-note.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="0">
-                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding>
+                  <marker date="1487581201000" expanded="true" signature="842:862" ph="{&quot;carType&quot;: 'test'...}" />
+                  <marker date="1487581201000" expanded="true" signature="1445:1545" ph="{&quot;title&quot;: 'Order'...}" />
+                  <marker date="1487581201000" expanded="true" signature="1575:1802" ph="{...}" />
+                  <marker date="1487581201000" expanded="true" signature="1602:1687" ph="{&quot;title&quot;: 'Foo'...}" />
+                  <marker date="1487581201000" expanded="true" signature="1701:1800" ph="//..." />
+                  <marker date="1487581201000" expanded="true" signature="1941:2027" ph="{...}" />
+                  <marker date="1487581201000" expanded="true" signature="1955:1993" ph="{...}" />
+                  <marker date="1487581201000" expanded="true" signature="1999:2025" ph="{...}" />
+                  <marker date="1487581201000" expanded="true" signature="2085:2119" ph="{...}" />
+                  <marker date="1487581201000" expanded="true" signature="2160:2182" ph="{...}" />
+                  <marker date="1487581201000" expanded="true" signature="2430:2480" ph="{...}" />
+                  <marker date="1487581201000" expanded="true" signature="2766:2777" ph="{...}" />
+                  <marker date="1487581201000" expanded="true" signature="2812:2904" ph="{...}" />
+                  <marker date="1487581201000" expanded="true" signature="2846:2902" ph="{...}" />
+                  <marker date="1487581201000" expanded="true" signature="2941:3011" ph="{...}" />
+                  <marker date="1487581201000" expanded="true" signature="2975:3009" ph="{...}" />
+                  <marker date="1487581201000" expanded="true" signature="3043:3136" ph="{...}" />
+                  <marker date="1487581201000" expanded="true" signature="3077:3134" ph="{...}" />
+                  <marker date="1487581201000" expanded="true" signature="3315:3340" ph="{...}" />
+                  <marker date="1487581201000" expanded="true" signature="3761:3811" ph="{...}" />
+                  <marker date="1487581201000" expanded="true" signature="3779:3809" ph="{...}" />
+                  <marker date="1487581201000" expanded="true" signature="3961:4193" ph="{...}" />
+                  <marker date="1487581201000" expanded="true" signature="3979:4009" ph="{...}" />
+                  <marker date="1487581201000" expanded="true" signature="4108:4191" ph="{...}" />
+                  <marker date="1487581201000" expanded="true" signature="4152:4187" ph="{...}" />
+                  <marker date="1487581201000" expanded="true" signature="5209:5301" ph="{...}" />
+                  <marker date="1487581201000" expanded="true" signature="5238:5289" ph="{...}" />
+                  <marker date="1487581201000" expanded="true" signature="5426:5531" ph="{...}" />
+                  <marker date="1487581201000" expanded="true" signature="5455:5519" ph="{...}" />
+                  <marker date="1487581201000" expanded="true" signature="5574:5752" ph="{...}" />
+                  <marker date="1487581201000" expanded="true" signature="5603:5655" ph="{...}" />
+                  <marker date="1487581201000" expanded="true" signature="5683:5741" ph="{...}" />
+                  <marker date="1487581201000" expanded="true" signature="5776:5868" ph="{...}" />
+                  <marker date="1487581201000" expanded="true" signature="5805:5856" ph="{...}" />
+                </folding>
               </first_editor>
               <second_editor />
             </state>
@@ -45,8 +144,31 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>*-</find>
+      <find>===</find>
+      <find>···</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>-</replace>
+      <replace>**</replace>
+      <replace>```</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Language.md" />
+        <option value="$PROJECT_DIR$/Tool.md" />
+        <option value="$PROJECT_DIR$/reat-native.md" />
+        <option value="$PROJECT_DIR$/react.md" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -55,19 +177,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
-    <option name="width" value="1366" />
-    <option name="height" value="744" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
+    <option name="x" value="-319" />
+    <option name="y" value="-1057" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -84,16 +197,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="note" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="note" />
@@ -106,11 +211,72 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v6.7.0/bin/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v6.7.0/bin/node" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -123,33 +289,39 @@
       <option name="presentableId" value="Default" />
       <updated>1482462562101</updated>
       <workItem from="1482462563390" duration="26000" />
+      <workItem from="1488760596084" duration="1278000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26000" />
+    <option name="totallyTimeSpent" value="1304000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1366" height="744" extended-state="6" />
+    <frame x="-319" y="-1057" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16535018" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Reviews" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="News Feed" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -162,17 +334,110 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="34">
-            <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clean-code-js-note.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding>
+              <marker date="1487581201000" expanded="true" signature="842:862" ph="{&quot;carType&quot;: 'test'...}" />
+              <marker date="1487581201000" expanded="true" signature="1445:1545" ph="{&quot;title&quot;: 'Order'...}" />
+              <marker date="1487581201000" expanded="true" signature="1575:1802" ph="{...}" />
+              <marker date="1487581201000" expanded="true" signature="1602:1687" ph="{&quot;title&quot;: 'Foo'...}" />
+              <marker date="1487581201000" expanded="true" signature="1701:1800" ph="//..." />
+              <marker date="1487581201000" expanded="true" signature="1941:2027" ph="{...}" />
+              <marker date="1487581201000" expanded="true" signature="1955:1993" ph="{...}" />
+              <marker date="1487581201000" expanded="true" signature="1999:2025" ph="{...}" />
+              <marker date="1487581201000" expanded="true" signature="2085:2119" ph="{...}" />
+              <marker date="1487581201000" expanded="true" signature="2160:2182" ph="{...}" />
+              <marker date="1487581201000" expanded="true" signature="2430:2480" ph="{...}" />
+              <marker date="1487581201000" expanded="true" signature="2766:2777" ph="{...}" />
+              <marker date="1487581201000" expanded="true" signature="2812:2904" ph="{...}" />
+              <marker date="1487581201000" expanded="true" signature="2846:2902" ph="{...}" />
+              <marker date="1487581201000" expanded="true" signature="2941:3011" ph="{...}" />
+              <marker date="1487581201000" expanded="true" signature="2975:3009" ph="{...}" />
+              <marker date="1487581201000" expanded="true" signature="3043:3136" ph="{...}" />
+              <marker date="1487581201000" expanded="true" signature="3077:3134" ph="{...}" />
+              <marker date="1487581201000" expanded="true" signature="3315:3340" ph="{...}" />
+              <marker date="1487581201000" expanded="true" signature="3761:3811" ph="{...}" />
+              <marker date="1487581201000" expanded="true" signature="3779:3809" ph="{...}" />
+              <marker date="1487581201000" expanded="true" signature="3961:4193" ph="{...}" />
+              <marker date="1487581201000" expanded="true" signature="3979:4009" ph="{...}" />
+              <marker date="1487581201000" expanded="true" signature="4108:4191" ph="{...}" />
+              <marker date="1487581201000" expanded="true" signature="4152:4187" ph="{...}" />
+              <marker date="1487581201000" expanded="true" signature="5209:5301" ph="{...}" />
+              <marker date="1487581201000" expanded="true" signature="5238:5289" ph="{...}" />
+              <marker date="1487581201000" expanded="true" signature="5426:5531" ph="{...}" />
+              <marker date="1487581201000" expanded="true" signature="5455:5519" ph="{...}" />
+              <marker date="1487581201000" expanded="true" signature="5574:5752" ph="{...}" />
+              <marker date="1487581201000" expanded="true" signature="5603:5655" ph="{...}" />
+              <marker date="1487581201000" expanded="true" signature="5683:5741" ph="{...}" />
+              <marker date="1487581201000" expanded="true" signature="5776:5868" ph="{...}" />
+              <marker date="1487581201000" expanded="true" signature="5805:5856" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Language.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="850">
+            <caret line="190" column="0" lean-forward="false" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tool.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="835">
+          <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reat-native.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1683">
+            <caret line="99" column="1" lean-forward="false" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
+            <folding>
+              <marker date="1488761637000" expanded="true" signature="1982:2051" ph="{&quot;router&quot;: React.PropTypes.object.isRequired...}" />
+              <marker date="1488761637000" expanded="true" signature="2080:2151" ph="{...}" />
+              <marker date="1488761637000" expanded="true" signature="2097:2144" ph="{&quot;key&quot;: '/'...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="782">
+            <caret line="75" column="19" lean-forward="false" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="493">
+            <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
