@@ -1,8 +1,6 @@
-# Note
+# Think & Note
 
 ## ————study note
-
-# Think & Note
 
 ## [语言与规范](language.md)
 
