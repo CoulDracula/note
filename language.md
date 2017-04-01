@@ -13,7 +13,8 @@
   - express ${demo name}
 
 
-### JavaScript
+### JavaScript 语法标准
+
 - 封装模块为方法
 ```
 String.method("deentityify",function(){  //封装string类型的方法

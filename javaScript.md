@@ -97,13 +97,11 @@ function add(x){
     return y + x;
   };
 }
- 
+
 var addTwo = add(2);
 addTwo(3);          // => 5
 add(10)(11);        // => 21
 ```
-
-*********
 
 #### console
 
@@ -177,7 +175,7 @@ console.profile('性能分析器');
 
  !image3.png!
 
-### FormData查看不到内容
+#### FormData查看不到内容
 
 ```javascript
 
