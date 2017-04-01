@@ -98,3 +98,59 @@ this refs is getting undefined in method
 发现tcomb-form-native不支持中文输入
 
 疑问：React.createElement()做什么用的
+
+
+
+
+===选择菜单的候选项既有遍历的又有默认的标签时===
+
+参考：
+https://github.com/NHSRC/facilities-assessment-android-client/blob/d29531f0d42fd83b966ead27b81a698b4eedfa8f/src/js/views/dashboard/start/AssessmentPicker.js
+
+##### 错误(但是可以用于常规的item列表)：
+
+```html
+  <Picker
+        iosHeader='选择乐器'
+        mode="dropdown"
+        selectedValue={this.state.instrument}
+        onValueChange={this.selectInstrument.bind(this)}
+      >
+        <Item label="全部" value="all"/>
+        {instruments.length > 0 && instruments.map(
+          instrument => {
+            return (
+              <Item key={instrument.id} label={instrument.get('name')} value={instrument.id}/>
+            )
+          }
+        )}
+      </Picker>
+```
+
+
+##### 正确
+
+```html
+<Picker
+        iosHeader='选择乐器'
+        mode="dropdown"
+        selectedValue={this.state.instrument}
+        onValueChange={this.selectInstrument.bind(this)}
+      >
+        {pickerItems}
+      </Picker>
+
+
+ const pickerItems = [
+      <Item label="全部" value="all"/>].concat(
+        instruments.map(
+          instrument => {
+            return (
+              <Item key={instrument.id} label={instrument.get('name')} value={instrument.id}/>
+            )
+          }
+        )
+      );
+```
+
+
