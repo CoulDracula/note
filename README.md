@@ -4,7 +4,7 @@
 
 # Think & Note
 
-## [Language](language.md)
+## [语言与规范](language.md)
 
 ## [Tool](tool.md)
 

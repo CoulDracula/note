@@ -1,4 +1,7 @@
-## Language
+# 语言与规范
+
+## ————来自图灵设计丛书相关书籍
+
 ### mongodb
 
 - `mongod -dbpath "g:\net+\nodejs\redux_test\database"`
@@ -181,7 +184,8 @@ bodyParser.urlencoded则是用来解析我们通常的form表单提交的数据�
 
 bodyParser.urlencoded
 模块用于解析req.body的数据，解析成功后覆盖原来的req.body，如果解析失败则为 {}
-```
+
+```javascript
 const bodyParser =require("body-parser");
 const app = express();
 
