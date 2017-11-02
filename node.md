@@ -42,3 +42,15 @@
     }
   );
 ```
+
+### forever
+
+forever 执行 `npm start`
+
+https://github.com/foreverjs/forever/issues/540
+
+- 执行指定位置的：
+`forever start -c "npm start" /path/to/app/dir/`
+
+- 执行当前位置的：
+`forever start -c "npm start" ./`

@@ -5,6 +5,21 @@
 - 创建步骤：先创建基础镜像，做成容器，在其中添加相关代码运行环境（如：nodejs，mongodb），将其创建为新容器，该容器创建为镜像。在镜像中添加程序文件（如：webapp文件夹）。运行
 - (原始镜像没有vim，无法访问外网，可以用cat命令创建hosts，合并到现有hosts)
 
+
+#### 构建parse服务器+docker数据库流程代码
+```dockerfile
+docker pull mongo
+docker run  --name parse-database   -p 27017:27017   -d mongo
+
+parse-server --appId 1 --masterKey 1 --databaseURI mongodb://localhost:27017/parse-database
+
+ parse-dashboard --appId 1 --masterKey 1  --serverURL "http://localhost:1337/parse" --appName parse-database
+
+```
+
+
+
+
 方法：
 
 （containername：容器名，imagename：镜像名，filepath：文件位置）

@@ -5,77 +5,26 @@
 
 ### ES6
 
+### [ES6](es6.md)
 
-#### Promise
 
-```javascript
-var promise = new Promise(function(resolve, reject) {
-  // ... some code
 
-  if (/* 异步操作成功 */){
-    resolve(value);
-  } else {
-    reject(error);
-  }
-});
-```
+#### 注意事项
 
-> http://es6.ruanyifeng.com/#docs/promise
+- 动态创建对象名`person[dateFormat(date, 'dddd')] = newDate`
 
-#### es6语法糖
 
-```javascript
-作者：颜什么都不记得适
-链接：https://www.zhihu.com/question/53045668/answer/133210331
-来源：知乎
-著作权归作者所有，转载请联系作者获得授权。
 
-const uniq = arr => [...new Set(arr)]
+- date函数 :  `.getMonth（）`获取的月份是0-11
 
-const curry = (f, len = f.length) => (...args) => {
-    const sub = args.length
-    return sub < len ? curry((...rest) => f(...args, ...rest), len - sub) : f(...args)
-}
 
-const compose = (...funcs) => {
-    const len = funcs.length
-    return len ? (...args) => funcs.slice(0, -1).reduceRight((composed, f) => f(composed), funcs[len - 1](...args)) : arg => arg
-}
+- 对于一个字符串类型的`false`,
+`Boolean（“false”）===true   //true`
+可以全部string化，判断
+如`String(“true’)===String(true)  //true`
 
-// ap :: f (a -> b) -> f a -> f b
-const ap = curry((funcs, xs) => xs.map(x => funcs.map(f => f(x))).reduce((acc, x) => acc.concat(x), []))
+- map()是生成新数组，返回值就是数组元素
 
-// bind :: m a -> (a -> m b) -> m b
-const bind = curry((xs, f) => xs.map(f).reduce((acc, x) => acc.concat(x), []))
-
-const Y = f => (f => f(f))(g => f(x => g(g)(x)))
-
-const sort = Y(f => ([m, ...xs]) => m !== undefined ? [...f(xs.filter(x => x <= m)), m, ...f(xs.filter(x => x > m))] : [])
-
-@connect(mapStateToProps, mapDispatchToProps)
-class Home extends Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-            // ...
-        }
-    }
-
-    async componentDidMount() {
-        const data = await ajax({
-            // ...
-        })
-        this.setState({ ...this.state, ...data })
-    }
-
-    render() {
-        const { foo, bar } = this.props
-        return (
-            // ...
-        )
-    }
-}
-```
 
 
 #### 命名规范
@@ -226,14 +175,3 @@ console.profile('性能分析器');
 ```
 
 ************
-
-### es 7 新特性
-
-#### async 和await
-
-- async是一个异步操作
-- await 只能在async中使用，可以理解为一个同步操作 用来取代 .then()
-
-> async生命是一个异步函数，await使用在异步函数中，只有返回promise对象后才继续执行下一个函数（理论上来说await后面跟着应该是一个promise对象，就算不是也没关系，只是await没有意义罢了）
-
-

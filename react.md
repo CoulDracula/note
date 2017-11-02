@@ -11,13 +11,67 @@ react batchUpdate
 
 ### 代码集锦
 
-createElement:
+#### createElement:
 
  ```html
 <RaisedButton linkButton={true}
                         containerElement={<Link to={`/questions/`}/>}
                         label="返回"/>
  ```
+
+#### 动态传入css样式
+```jsx harmony
+ <View style={styles.square}>
+     <Animated.View  style={[styles.line,{height:this.state.fV}]}>
+      <Animated.View style={[styles.line,{height:this.state.sV}]}>
+      <Animated.View style={[styles.line,{height:this.state.tV}]}>
+      <Animated.View style={[styles.line,{height:this.state.foV}]}>
+  </View>
+```
+
+
+
+#### ...
+...是es6语法的解构   声明多个值，可以是对象或者数组
+
+用来取来es5 中a.splice(b)这种数组/对象添加方法
+
+redux中
+```javascript
+{
+  ...state,
+  isDecrementing: true
+}
+```
+因为...state是一个object，包含多个值
+
+example
+```javascript
+const oldVideoRecords = [1,2,3,4,5]
+Const videoRecord=6
+return [...oldVideoRecords, videoRecord]  //[1,2,3,4,5,6]
+
+redux中常使用 …state
+
+const oldVideoRecords = state.filter(videoRecord => videoRecord.id != action.videoRecord.id)
+return [...oldVideoRecords, action.videoRecord]
+
+```
+
+
+…props 是react 的传递除声明的props之外的props
+
+使用更安全和刚方便，避免漏写某些props
+
+{…this.props}是声明全部的props都传递
+
+这段代码没有问题。但是，如果我想在div标签上面加上属性title、name、onClick等，是不是我要每一条都要写到组件里
+<div className={fancyClass} onClick={this.props.onClick} name={this.props.name} title={this.props.title}>     {this.props.children} </div>
+这样做显然是很啰嗦的，也是不安全的。这时我们可以通过JSX的特性 … 来解决这一问题。它的功能是将未知属性提取出来。
+其用法就是，列出当前要使用的属性，后面再跟上 …other （注意：…后面跟的字符串不是固定的other，也可以是其它的，例如：onmpw）。
+var {checked , ...other} = this.props;
+
+http://www.onmpw.com/tm/xwzj/web_159.html
 
 
 #### this.props.children

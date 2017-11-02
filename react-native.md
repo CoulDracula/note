@@ -15,6 +15,20 @@
 
 - 如果应用运行在一个高像素密度的设备上，显示的图片也应当分辨率更高。一个取得缩略图的好规则就是将显示尺寸乘以像素密度比：
 
+
+#### android打包中
+http://reactnative.cn/docs/0.49/signed-apk-android.html#content
+ 
+MYAPP_RELEASE_STORE_FILE=my-release-key.keystore
+
+MYAPP_RELEASE_KEY_ALIAS=my-key-alias
+
+MYAPP_RELEASE_STORE_PASSWORD=*****
+
+MYAPP_RELEASE_KEY_PASSWORD=*****
+
+**保存在项目中gradle.properties  不是电脑系统中**
+
 #### theme
 
 - 设置组件主题
@@ -24,7 +38,51 @@
 
 #### splice screen
 
-- 程序启动画面，与在xcode中设置的功能相似（暂未成功使用启动画面，在xcode中设置的启动画面能正常使用）
+
+
+- android启动画面：
+```javascript
+android/app/src/main/res/values
+```
+
+其中launch为启动画面名称，
+launch.png 放在上层的mipmap中
+
+```xml
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@mipmap/launch</item>
+    </style>
+</resources>
+
+```
+
+
+
+- iOS 启动画面：
+  - xcode中  Images.xcassets中放启动画面图片，
+
+  - 首次进入app页面：
+  
+      在app.js  load store中是否有首次进入的tag，如果为false，说明是，跳转到某页面，如果不是，则直接进入路由。
+      
+      ```javascript
+        const init = this.props.init
+          if (init) {
+             return (
+                 <GuideScene changeGuide={this.changeGuide} />
+             )
+          }
+
+        const mapStateToProps = (state) => {
+          return {
+             init: state.info.init
+          }
+        }
+      ```
+
 
 ### router
 
@@ -167,5 +225,29 @@ https://github.com/NHSRC/facilities-assessment-android-client/blob/d29531f0d42fd
         )
       );
 ```
+
+
+### 一些坑
+
+#### Running Xcode's "analyze" on Yoga code surfaces issues
+
+https://github.com/facebook/react-native/issues/12609
+
+`** BUILD FAILED **
+
+The following commands produced analyzer issues:
+
+```
+Analyze /Users/julionava/ReactNative\ Projects/PlatziMusic/node_modules/react-native/ReactCommon/yoga/yoga/YGNodeList.c
+Analyze /Users/julionava/ReactNative\ Projects/PlatziMusic/node_modules/react-native/ReactCommon/yoga/yoga/Yoga.c
+```
+
+##### todo:    `deleting ios/build fixed it!`
+
+#### Unable to resolve module `react-native/Libraries/Renderer/shims/ReactNativePropRegistry` from `........./node_modules/native-base/dist/src/Utils/computeProps.js`
+
+https://github.com/GeekyAnts/NativeBase/issues/1039
+
+##### todo: 
 
 
