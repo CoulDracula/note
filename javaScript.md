@@ -175,3 +175,48 @@ console.profile('性能分析器');
 ```
 
 ************
+
+
+
+
+#### 函数种类
+
+普通函数
+```javascript
+function test(){}
+
+const test=()=>{}
+```
+
+变量匿名函数
+```javascript
+const test=function (){
+  
+}
+
+const test=()=>{}
+```
+
+无名称匿名函数
+```javascript
+function () {
+  
+}
+
+()=>{}
+```
+
+立即执行匿名函数
+```javascript
+(function (p1) {
+    alert(p1);
+})(1)
+```
+#### 闭包  
+
+以下函数为立即执行函数，也叫闭包
+```javascript
+(function(a){
+    console.log(a);   //firebug输出123,使用（）运算符
+})(123)
+```
