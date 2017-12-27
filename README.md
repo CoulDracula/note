@@ -373,20 +373,10 @@ setTimeout(function(){},time).bind(this);
 
 ### 计算机文化
 
-#### 关于learn one  ,write anywhere 和移动端的重要性   by:talkol
+#### [关于learn one,write anywhere 和移动端的重要性   by:talkol](https://www.youtube.com/watch?v=abSNo2P9mMM)
 
-https://www.youtube.com/watch?v=abSNo2P9mMM
+#### [简析Chrome和Webkit的渊源](http://www.3lian.com/edu/2012/05-25/28803.html)
 
-#### 简析Chrome和Webkit的渊源
+#### [node.js的历史由来](http://blog.csdn.net/u012028371/article/details/54884056)
 
-http://www.3lian.com/edu/2012/05-25/28803.html
-
-#### nodejs的历史由来
-
-http://blog.csdn.net/u012028371/article/details/54884056
-
-#### 什么是git
-
-http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001373962845513aefd77a99f4145f0a2c7a7ca057e7570000
-
-
+#### [什么是git](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001373962845513aefd77a99f4145f0a2c7a7ca057e7570000)

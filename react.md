@@ -262,3 +262,86 @@ void componentWillUnmount()
 1. 下面是我对React组件四条更新路径地总结：
 
 > 注意，如果在shouldComponentUpdate里面返回false可以提前退出更新路径
+
+
+
+#### 高阶函数
+
+通过函数模拟
+
+```javascript
+function welcome(username) {
+    console.log('welcome ' + username);
+}
+
+function goodbey(username) {
+    console.log('goodbey ' + username);
+}
+
+function wrapWithUsername(wrappedFunc) {
+    let newFunc = () => {
+        let username = localStorage.getItem('username');
+        wrappedFunc(username);
+    };
+    return newFunc;
+}
+
+welcome = wrapWithUsername(welcome);
+goodbey = wrapWithUsername(goodbey);
+
+welcome();
+welcome();
+
+```
+
+##### React 高阶组件
+
+
+高阶组件(高阶组件就是一个函数，且该函数接受一个组件作为参数，并返回一个新的组件)。
+
+```jsx harmony
+import React, {Component} from 'react'
+
+export default (WrappedComponent) => {
+    class NewComponent extends Component {
+        constructor() {
+            super();
+            this.state = {
+                username: ''
+            }
+        }
+
+        componentWillMount() {
+            let username = localStorage.getItem('username');
+            this.setState({
+                username: username
+            })
+        }
+
+        render() {
+            return <WrappedComponent username={this.state.username}/>
+        }
+    }
+
+    return NewComponent
+}
+```
+
+使用（高阶组件同样也可以传递参数）
+```jsx harmony
+import React, {Component} from 'react';
+import wrapWithUsername from 'wrapWithUsername';
+
+class Welcome extends Component {
+
+    render() {
+        return (
+            <div>welcome {this.props.username}</div>
+        )
+    }
+}
+
+Welcome = wrapWithUsername(Welcome);
+
+export default Welcome;
+```
